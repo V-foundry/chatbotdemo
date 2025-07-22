@@ -554,5 +554,10 @@ logger.info("Gradio interface mounted on FastAPI at /chat")
 
 if __name__ == "__main__":
     import uvicorn
-    logger.info("Starting uvicorn server on 0.0.0.0:8000")
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    
+    # Get port from environment variable (Railway sets this)
+    port = int(os.getenv("PORT", 8000))
+    host = os.getenv("HOST", "0.0.0.0")
+    
+    logger.info(f"Starting uvicorn server on {host}:{port}")
+    uvicorn.run(app, host=host, port=port)

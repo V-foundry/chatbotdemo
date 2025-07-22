@@ -1,0 +1,9 @@
+[build]
+builder = "nixpacks"
+buildCommand = "uv sync --frozen"
+
+[deploy]
+startCommand = "uv run python main.py"
+restartPolicyType = "on_failure"
+
+
