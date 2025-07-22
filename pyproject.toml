@@ -1,0 +1,17 @@
+[project]
+name = "chatbotdemo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beanie>=2.0.0",
+    "dotenv>=0.9.9",
+    "fastapi>=0.116.1",
+    "google-generativeai>=0.8.5",
+    "gradio>=5.38.0",
+    "loguru>=0.7.3",
+    "motor>=3.7.1",
+    "pymongo[srv]>=4.13.2",
+    "uvicorn>=0.35.0",
+]
