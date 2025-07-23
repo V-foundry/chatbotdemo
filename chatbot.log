@@ -612,3 +612,26 @@ Focus on fostering meanin...
 2025-07-23 23:03:49.083 | INFO     | __main__:chat:975 - Generating response with Gemini API...
 2025-07-23 23:03:52.123 | INFO     | __main__:chat:982 - Storing message in database...
 2025-07-23 23:03:52.305 | SUCCESS  | __main__:chat:1004 - Message stored successfully
+2025-07-23 23:50:13.192 | INFO     | config:<module>:15 - Gemini API configured
+2025-07-23 23:50:13.194 | INFO     | config:<module>:21 - MongoDB URI: mongodb+srv://sohamrx:BlazingDragon18@chatbotdemo-cluster.gczetdg.mongodb.net/?retryWrites=true&w=majority&appName=chatbotdemo-cluster
+2025-07-23 23:50:13.194 | INFO     | config:<module>:22 - Database Name: chatbot_db
+2025-07-23 23:50:49.927 | INFO     | config:<module>:15 - Gemini API configured
+2025-07-23 23:50:49.927 | INFO     | config:<module>:21 - MongoDB URI: mongodb+srv://sohamrx:BlazingDragon18@chatbotdemo-cluster.gczetdg.mongodb.net/?retryWrites=true&w=majority&appName=chatbotdemo-cluster
+2025-07-23 23:50:49.927 | INFO     | config:<module>:22 - Database Name: chatbot_db
+2025-07-23 23:50:50.567 | INFO     | __main__:<module>:300 - Gradio interface mounted on FastAPI at /chat
+2025-07-23 23:50:50.567 | INFO     | __main__:<module>:303 - Starting uvicorn server on 0.0.0.0:8000
+2025-07-23 23:50:50.602 | INFO     | __main__:lifespan:24 - Starting FastAPI application...
+2025-07-23 23:50:50.603 | INFO     | database:init_mongo:11 - Initializing MongoDB connection...
+2025-07-23 23:50:59.963 | SUCCESS  | database:init_mongo:23 - MongoDB connection initialized successfully
+2025-07-23 23:50:59.964 | SUCCESS  | __main__:lifespan:26 - Application startup completed
+2025-07-23 23:50:59.965 | INFO     | __main__:lifespan:29 - Application shutdown
+2025-07-23 23:53:08.522 | INFO     | config:<module>:15 - Gemini API configured
+2025-07-23 23:53:08.522 | INFO     | config:<module>:21 - MongoDB URI: mongodb+srv://sohamrx:BlazingDragon18@chatbotdemo-cluster.gczetdg.mongodb.net/?retryWrites=true&w=majority&appName=chatbotdemo-cluster
+2025-07-23 23:53:08.522 | INFO     | config:<module>:22 - Database Name: chatbot_db
+2025-07-23 23:53:09.126 | INFO     | __main__:<module>:300 - Gradio interface mounted on FastAPI at /chat
+2025-07-23 23:53:09.126 | INFO     | __main__:<module>:303 - Starting uvicorn server on 0.0.0.0:8000
+2025-07-23 23:53:09.152 | INFO     | __main__:lifespan:24 - Starting FastAPI application...
+2025-07-23 23:53:09.152 | INFO     | database:init_mongo:11 - Initializing MongoDB connection...
+2025-07-23 23:53:18.503 | SUCCESS  | database:init_mongo:23 - MongoDB connection initialized successfully
+2025-07-23 23:53:18.504 | SUCCESS  | __main__:lifespan:26 - Application startup completed
+2025-07-23 23:53:18.505 | INFO     | __main__:lifespan:29 - Application shutdown
