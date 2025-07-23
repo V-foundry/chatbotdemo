@@ -364,3 +364,251 @@
 2025-07-22 21:53:08.965 | INFO     | __main__:chat:418 - Generating response with Gemini API...
 2025-07-22 21:53:11.099 | INFO     | __main__:chat:425 - Storing message in database...
 2025-07-22 21:53:11.205 | SUCCESS  | __main__:chat:428 - Message stored successfully
+2025-07-23 21:46:10.812 | INFO     | __main__:<module>:25 - Gemini API configured
+2025-07-23 21:46:10.813 | INFO     | __main__:<module>:33 - MongoDB URI: mongodb+srv://sohamrx:BlazingDragon18@chatbotdemo-cluster.gczetdg.mongodb.net/?retryWrites=true&w=majority&appName=chatbotdemo-cluster
+2025-07-23 21:46:10.813 | INFO     | __main__:<module>:34 - Database Name: chatbot_db
+2025-07-23 21:46:11.195 | INFO     | __main__:<module>:918 - Gradio interface mounted on FastAPI at /chat
+2025-07-23 21:46:11.275 | INFO     | __main__:<module>:927 - Starting uvicorn server on 0.0.0.0:8000
+2025-07-23 21:46:11.330 | INFO     | __main__:lifespan:673 - Starting FastAPI application...
+2025-07-23 21:46:11.331 | INFO     | __main__:init_mongo:130 - Initializing MongoDB connection...
+2025-07-23 21:46:20.812 | SUCCESS  | __main__:init_mongo:139 - MongoDB connection initialized successfully
+2025-07-23 21:46:20.813 | SUCCESS  | __main__:lifespan:675 - Application startup completed
+2025-07-23 21:47:01.226 | INFO     | __main__:create_user_bot:508 - Created bot bot_darius_0cb50e02 for user darius
+2025-07-23 21:47:01.362 | INFO     | __main__:end_user_sessions:628 - Ended 0 sessions for user darius
+2025-07-23 21:47:01.539 | INFO     | __main__:create_session:577 - Created session session_darius_92811462 for user darius
+2025-07-23 21:47:01.539 | INFO     | __main__:login_or_register_user:183 - New user registered: darius with bot: bot_darius_0cb50e02
+2025-07-23 21:47:23.509 | INFO     | __main__:chat:689 - Processing chat message for user: darius
+2025-07-23 21:47:23.511 | INFO     | __main__:extract_user_facts:292 - Extracting facts from user message...
+2025-07-23 21:47:26.101 | INFO     | __main__:extract_user_facts:320 - Extracted 2 valid facts from message
+2025-07-23 21:47:26.227 | INFO     | __main__:store_user_facts:410 - Stored 2 facts for user: darius
+2025-07-23 21:47:26.433 | INFO     | __main__:chat:709 - Using custom bot: Darius's Assistant
+2025-07-23 21:47:26.547 | INFO     | __main__:chat:752 - Generating response with Gemini API...
+2025-07-23 21:47:27.471 | INFO     | __main__:chat:759 - Storing message in database...
+2025-07-23 21:47:27.635 | SUCCESS  | __main__:chat:781 - Message stored successfully
+2025-07-23 21:49:27.580 | INFO     | __main__:chat:689 - Processing chat message for user: darius
+2025-07-23 21:49:27.580 | INFO     | __main__:extract_user_facts:292 - Extracting facts from user message...
+2025-07-23 21:49:28.458 | INFO     | __main__:extract_user_facts:320 - Extracted 1 valid facts from message
+2025-07-23 21:49:28.557 | INFO     | __main__:store_user_facts:410 - Stored 1 facts for user: darius
+2025-07-23 21:49:28.734 | INFO     | __main__:chat:709 - Using custom bot: Darius's Assistant
+2025-07-23 21:49:28.821 | INFO     | __main__:chat:752 - Generating response with Gemini API...
+2025-07-23 21:49:30.167 | INFO     | __main__:chat:759 - Storing message in database...
+2025-07-23 21:49:30.362 | SUCCESS  | __main__:chat:781 - Message stored successfully
+2025-07-23 21:51:50.031 | INFO     | __main__:end_user_sessions:628 - Ended 1 sessions for user darius
+2025-07-23 21:51:50.260 | INFO     | __main__:create_session:577 - Created session session_darius_d9f1bb4b for user darius
+2025-07-23 21:51:50.261 | INFO     | __main__:login_or_register_user:167 - User logged in: darius
+2025-07-23 21:52:12.328 | INFO     | __main__:chat:689 - Processing chat message for user: darius
+2025-07-23 21:52:12.329 | INFO     | __main__:extract_user_facts:292 - Extracting facts from user message...
+2025-07-23 21:52:12.967 | INFO     | __main__:extract_user_facts:320 - Extracted 0 valid facts from message
+2025-07-23 21:52:14.241 | INFO     | __main__:chat:709 - Using custom bot: Darius's Assistant
+2025-07-23 21:52:14.363 | INFO     | __main__:chat:752 - Generating response with Gemini API...
+2025-07-23 21:52:15.964 | INFO     | __main__:chat:759 - Storing message in database...
+2025-07-23 21:52:16.133 | SUCCESS  | __main__:chat:781 - Message stored successfully
+2025-07-23 22:15:05.121 | INFO     | __main__:<module>:25 - Gemini API configured
+2025-07-23 22:15:05.121 | INFO     | __main__:<module>:33 - MongoDB URI: mongodb+srv://sohamrx:BlazingDragon18@chatbotdemo-cluster.gczetdg.mongodb.net/?retryWrites=true&w=majority&appName=chatbotdemo-cluster
+2025-07-23 22:15:05.121 | INFO     | __main__:<module>:34 - Database Name: chatbot_db
+2025-07-23 22:15:05.543 | INFO     | __main__:<module>:1086 - Gradio interface mounted on FastAPI at /chat
+2025-07-23 22:15:05.584 | INFO     | __main__:<module>:1095 - Starting uvicorn server on 0.0.0.0:8000
+2025-07-23 22:15:05.622 | INFO     | __main__:lifespan:752 - Starting FastAPI application...
+2025-07-23 22:15:05.622 | INFO     | __main__:init_mongo:131 - Initializing MongoDB connection...
+2025-07-23 22:15:15.451 | SUCCESS  | __main__:init_mongo:140 - MongoDB connection initialized successfully
+2025-07-23 22:15:15.451 | SUCCESS  | __main__:lifespan:754 - Application startup completed
+2025-07-23 22:15:42.179 | INFO     | __main__:create_user_bot:515 - Created bot bot_lee sin_4384d494 for user lee sin
+2025-07-23 22:15:42.315 | INFO     | __main__:end_user_sessions:707 - Ended 0 sessions for user lee sin
+2025-07-23 22:15:42.452 | INFO     | __main__:create_session:656 - Created session session_lee sin_a57d1951 for user lee sin
+2025-07-23 22:15:42.453 | INFO     | __main__:login_or_register_user:184 - New user registered: lee sin with bot: bot_lee sin_4384d494
+2025-07-23 22:16:02.524 | INFO     | __main__:end_user_sessions:707 - Ended 1 sessions for user lee sin
+2025-07-23 22:16:02.748 | INFO     | __main__:create_session:656 - Created session session_lee sin_d7ae7a0b for user lee sin
+2025-07-23 22:16:02.749 | INFO     | __main__:login_or_register_user:168 - User logged in: lee sin
+2025-07-23 22:16:13.172 | INFO     | __main__:chat:768 - Processing chat message for user: Lee Sin
+2025-07-23 22:16:13.173 | INFO     | __main__:extract_user_facts:296 - Extracting facts from user message...
+2025-07-23 22:16:15.245 | INFO     | __main__:extract_user_facts:324 - Extracted 0 valid facts from message
+2025-07-23 22:16:15.374 | INFO     | __main__:end_user_sessions:707 - Ended 0 sessions for user Lee Sin
+2025-07-23 22:16:15.507 | INFO     | __main__:create_user_bot:515 - Created bot bot_Lee Sin_735a8eff for user Lee Sin
+2025-07-23 22:16:15.596 | INFO     | __main__:create_session:656 - Created session session_Lee Sin_e21e9eba for user Lee Sin
+2025-07-23 22:16:15.725 | INFO     | __main__:chat:831 - Generating response with Gemini API...
+2025-07-23 22:16:16.597 | INFO     | __main__:chat:838 - Storing message in database...
+2025-07-23 22:16:16.768 | SUCCESS  | __main__:chat:860 - Message stored successfully
+2025-07-23 22:17:27.892 | INFO     | __main__:create_user_bot:515 - Created bot bot_wukong_88bb4638 for user wukong
+2025-07-23 22:17:28.080 | INFO     | __main__:end_user_sessions:707 - Ended 0 sessions for user wukong
+2025-07-23 22:17:28.250 | INFO     | __main__:create_session:656 - Created session session_wukong_d15949a0 for user wukong
+2025-07-23 22:17:28.250 | INFO     | __main__:login_or_register_user:184 - New user registered: wukong with bot: bot_wukong_88bb4638
+2025-07-23 22:17:34.465 | INFO     | __main__:chat:768 - Processing chat message for user: Wukong
+2025-07-23 22:17:34.466 | INFO     | __main__:extract_user_facts:296 - Extracting facts from user message...
+2025-07-23 22:17:35.366 | INFO     | __main__:extract_user_facts:324 - Extracted 1 valid facts from message
+2025-07-23 22:17:35.415 | WARNING  | __main__:store_user_facts:383 - User not found for storing facts: Wukong
+2025-07-23 22:17:35.548 | INFO     | __main__:end_user_sessions:707 - Ended 0 sessions for user Wukong
+2025-07-23 22:17:35.735 | INFO     | __main__:create_user_bot:515 - Created bot bot_Wukong_68fc6e83 for user Wukong
+2025-07-23 22:17:35.856 | INFO     | __main__:create_session:656 - Created session session_Wukong_d9f652fe for user Wukong
+2025-07-23 22:17:35.986 | INFO     | __main__:chat:831 - Generating response with Gemini API...
+2025-07-23 22:17:36.952 | INFO     | __main__:chat:838 - Storing message in database...
+2025-07-23 22:17:37.123 | SUCCESS  | __main__:chat:860 - Message stored successfully
+2025-07-23 22:24:06.854 | INFO     | __main__:<module>:25 - Gemini API configured
+2025-07-23 22:24:06.854 | INFO     | __main__:<module>:33 - MongoDB URI: mongodb+srv://sohamrx:BlazingDragon18@chatbotdemo-cluster.gczetdg.mongodb.net/?retryWrites=true&w=majority&appName=chatbotdemo-cluster
+2025-07-23 22:24:06.854 | INFO     | __main__:<module>:34 - Database Name: chatbot_db
+2025-07-23 22:24:07.259 | INFO     | __main__:<module>:1125 - Gradio interface mounted on FastAPI at /chat
+2025-07-23 22:24:07.299 | INFO     | __main__:<module>:1134 - Starting uvicorn server on 0.0.0.0:8000
+2025-07-23 22:24:07.335 | INFO     | __main__:lifespan:770 - Starting FastAPI application...
+2025-07-23 22:24:07.335 | INFO     | __main__:init_mongo:131 - Initializing MongoDB connection...
+2025-07-23 22:24:16.612 | SUCCESS  | __main__:init_mongo:140 - MongoDB connection initialized successfully
+2025-07-23 22:24:16.612 | SUCCESS  | __main__:lifespan:772 - Application startup completed
+2025-07-23 22:25:57.545 | INFO     | __main__:create_user_bot:521 - Created bot bot_monrae_66bedf29 for user monrae
+2025-07-23 22:25:57.679 | INFO     | __main__:end_user_sessions:725 - Ended 0 sessions for user monrae
+2025-07-23 22:25:57.799 | INFO     | __main__:create_session:674 - Created session session_monrae_b158b235 for user monrae
+2025-07-23 22:25:57.799 | INFO     | __main__:login_or_register_user:184 - New user registered: monrae with bot: bot_monrae_66bedf29
+2025-07-23 22:25:57.968 | INFO     | __main__:check_bot_needs_introduction:630 - User monrae bot customization check: needs_intro=True, prompt_customized=False
+2025-07-23 22:25:57.968 | INFO     | __main__:handle_login:904 - Login successful for monrae, needs_intro=True
+2025-07-23 22:25:57.968 | INFO     | __main__:handle_login:907 - Redirecting monrae to introduction tab
+2025-07-23 22:25:57.969 | INFO     | __main__:get_user_stats:197 - Getting user stats for: monrae
+2025-07-23 22:26:33.637 | INFO     | __main__:handle_introduction:976 - Processing introduction for user monrae
+2025-07-23 22:26:33.710 | INFO     | __main__:customize_bot_from_introduction:596 - Generating personalized system prompt...
+2025-07-23 22:26:37.525 | INFO     | __main__:customize_bot_from_introduction:606 - Customized bot prompt for user monrae
+2025-07-23 22:26:37.525 | INFO     | __main__:handle_introduction:982 - Introduction completed successfully for monrae
+2025-07-23 22:26:48.115 | INFO     | __main__:end_user_sessions:725 - Ended 1 sessions for user monrae
+2025-07-23 22:26:48.375 | INFO     | __main__:create_session:674 - Created session session_monrae_82fdac34 for user monrae
+2025-07-23 22:26:48.375 | INFO     | __main__:login_or_register_user:168 - User logged in: monrae
+2025-07-23 22:26:48.449 | INFO     | __main__:check_bot_needs_introduction:630 - User monrae bot customization check: needs_intro=False, prompt_customized=True
+2025-07-23 22:26:48.450 | INFO     | __main__:handle_login:904 - Login successful for monrae, needs_intro=False
+2025-07-23 22:26:48.450 | INFO     | __main__:handle_login:921 - Redirecting monrae to chat tab
+2025-07-23 22:26:48.450 | INFO     | __main__:get_user_stats:197 - Getting user stats for: monrae
+2025-07-23 22:27:06.327 | INFO     | __main__:create_user_bot:521 - Created bot bot_mayukhsen_a96caf8b for user mayukhsen
+2025-07-23 22:27:06.449 | INFO     | __main__:end_user_sessions:725 - Ended 0 sessions for user mayukhsen
+2025-07-23 22:27:06.588 | INFO     | __main__:create_session:674 - Created session session_mayukhsen_3d583364 for user mayukhsen
+2025-07-23 22:27:06.588 | INFO     | __main__:login_or_register_user:184 - New user registered: mayukhsen with bot: bot_mayukhsen_a96caf8b
+2025-07-23 22:27:06.666 | INFO     | __main__:check_bot_needs_introduction:630 - User mayukhsen bot customization check: needs_intro=True, prompt_customized=False
+2025-07-23 22:27:06.666 | INFO     | __main__:handle_login:904 - Login successful for mayukhsen, needs_intro=True
+2025-07-23 22:27:06.666 | INFO     | __main__:handle_login:907 - Redirecting mayukhsen to introduction tab
+2025-07-23 22:27:06.666 | INFO     | __main__:get_user_stats:197 - Getting user stats for: mayukhsen
+2025-07-23 22:27:37.860 | INFO     | __main__:handle_introduction:976 - Processing introduction for user mayukhsen
+2025-07-23 22:27:37.943 | INFO     | __main__:customize_bot_from_introduction:596 - Generating personalized system prompt...
+2025-07-23 22:27:40.804 | INFO     | __main__:customize_bot_from_introduction:606 - Customized bot prompt for user mayukhsen
+2025-07-23 22:27:40.805 | INFO     | __main__:handle_introduction:982 - Introduction completed successfully for mayukhsen
+2025-07-23 22:28:32.790 | INFO     | __main__:chat:786 - Processing chat message for user: mayukhsen
+2025-07-23 22:28:32.791 | INFO     | __main__:extract_user_facts:301 - Extracting facts from user message...
+2025-07-23 22:28:33.479 | INFO     | __main__:extract_user_facts:329 - Extracted 0 valid facts from message
+2025-07-23 22:28:33.650 | INFO     | __main__:chat:806 - Using custom bot: Mayukhsen's Assistant
+2025-07-23 22:28:33.727 | INFO     | __main__:chat:849 - Generating response with Gemini API...
+2025-07-23 22:28:35.108 | INFO     | __main__:chat:856 - Storing message in database...
+2025-07-23 22:28:35.231 | SUCCESS  | __main__:chat:878 - Message stored successfully
+2025-07-23 22:29:06.180 | INFO     | __main__:chat:786 - Processing chat message for user: mayukhsen
+2025-07-23 22:29:06.182 | INFO     | __main__:extract_user_facts:301 - Extracting facts from user message...
+2025-07-23 22:29:07.371 | INFO     | __main__:extract_user_facts:329 - Extracted 3 valid facts from message
+2025-07-23 22:29:07.541 | INFO     | __main__:store_user_facts:419 - Stored 3 facts for user: mayukhsen
+2025-07-23 22:29:07.702 | INFO     | __main__:chat:806 - Using custom bot: Mayukhsen's Assistant
+2025-07-23 22:29:07.795 | INFO     | __main__:chat:849 - Generating response with Gemini API...
+2025-07-23 22:29:09.843 | INFO     | __main__:chat:856 - Storing message in database...
+2025-07-23 22:29:09.960 | SUCCESS  | __main__:chat:878 - Message stored successfully
+2025-07-23 22:30:44.175 | INFO     | __main__:create_user_bot:521 - Created bot bot_damianstark_de2b2475 for user damianstark
+2025-07-23 22:30:44.304 | INFO     | __main__:end_user_sessions:725 - Ended 0 sessions for user damianstark
+2025-07-23 22:30:44.427 | INFO     | __main__:create_session:674 - Created session session_damianstark_bda4098f for user damianstark
+2025-07-23 22:30:44.428 | INFO     | __main__:login_or_register_user:184 - New user registered: damianstark with bot: bot_damianstark_de2b2475
+2025-07-23 22:30:44.509 | INFO     | __main__:check_bot_needs_introduction:630 - User damianstark bot customization check: needs_intro=True, prompt_customized=False
+2025-07-23 22:30:44.509 | INFO     | __main__:handle_login:904 - Login successful for damianstark, needs_intro=True
+2025-07-23 22:30:44.510 | INFO     | __main__:handle_login:907 - Redirecting damianstark to introduction tab
+2025-07-23 22:30:44.510 | INFO     | __main__:get_user_stats:197 - Getting user stats for: damianstark
+2025-07-23 22:33:36.700 | INFO     | __main__:lifespan:775 - Application shutdown
+2025-07-23 22:36:54.648 | INFO     | __main__:<module>:26 - Gemini API configured
+2025-07-23 22:36:54.648 | INFO     | __main__:<module>:34 - MongoDB URI: mongodb+srv://sohamrx:BlazingDragon18@chatbotdemo-cluster.gczetdg.mongodb.net/?retryWrites=true&w=majority&appName=chatbotdemo-cluster
+2025-07-23 22:36:54.648 | INFO     | __main__:<module>:35 - Database Name: chatbot_db
+2025-07-23 22:36:55.033 | INFO     | __main__:<module>:1237 - Gradio interface mounted on FastAPI at /chat
+2025-07-23 22:36:55.074 | INFO     | __main__:<module>:1246 - Starting uvicorn server on 0.0.0.0:8000
+2025-07-23 22:36:55.102 | INFO     | __main__:lifespan:870 - Starting FastAPI application...
+2025-07-23 22:36:55.104 | INFO     | __main__:init_mongo:132 - Initializing MongoDB connection...
+2025-07-23 22:37:04.518 | SUCCESS  | __main__:init_mongo:141 - MongoDB connection initialized successfully
+2025-07-23 22:37:04.518 | SUCCESS  | __main__:lifespan:872 - Application startup completed
+2025-07-23 22:37:51.241 | INFO     | __main__:create_user_bot:543 - Created bot bot_leclercx_4dcfabb3 for user leclercx
+2025-07-23 22:37:51.384 | INFO     | __main__:end_user_sessions:825 - Ended 0 sessions for user leclercx
+2025-07-23 22:37:51.550 | INFO     | __main__:create_session:774 - Created session session_leclercx_95b4f71a for user leclercx
+2025-07-23 22:37:51.550 | INFO     | __main__:login_or_register_user:185 - New user registered: leclercx with bot: bot_leclercx_4dcfabb3
+2025-07-23 22:37:51.647 | INFO     | __main__:check_bot_needs_introduction:730 - User leclercx bot customization check: needs_intro=True, prompt_customized=False
+2025-07-23 22:37:51.648 | INFO     | __main__:handle_login:1004 - Login successful for leclercx, needs_intro=True
+2025-07-23 22:37:51.648 | INFO     | __main__:handle_login:1007 - Redirecting leclercx to introduction tab
+2025-07-23 22:37:51.648 | INFO     | __main__:get_user_stats:198 - Getting user stats for: leclercx
+2025-07-23 22:38:20.297 | INFO     | __main__:handle_introduction:1080 - Processing introduction for user leclercx
+2025-07-23 22:38:20.384 | INFO     | __main__:customize_bot_from_introduction:693 - Generating personalized system prompt...
+2025-07-23 22:38:24.174 | ERROR    | __main__:customize_bot_from_introduction:710 - Error customizing bot for user leclercx: 1 validation error for Bot
+system_prompt
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+2025-07-23 22:38:24.174 | ERROR    | __main__:handle_introduction:1094 - Introduction failed for leclercx
+2025-07-23 22:42:54.411 | INFO     | __main__:<module>:26 - Gemini API configured
+2025-07-23 22:42:54.412 | INFO     | __main__:<module>:34 - MongoDB URI: mongodb+srv://sohamrx:BlazingDragon18@chatbotdemo-cluster.gczetdg.mongodb.net/?retryWrites=true&w=majority&appName=chatbotdemo-cluster
+2025-07-23 22:42:54.412 | INFO     | __main__:<module>:35 - Database Name: chatbot_db
+2025-07-23 22:42:54.847 | INFO     | __main__:<module>:1263 - Gradio interface mounted on FastAPI at /chat
+2025-07-23 22:42:54.887 | INFO     | __main__:<module>:1272 - Starting uvicorn server on 0.0.0.0:8000
+2025-07-23 22:42:54.917 | INFO     | __main__:lifespan:896 - Starting FastAPI application...
+2025-07-23 22:42:54.917 | INFO     | __main__:init_mongo:132 - Initializing MongoDB connection...
+2025-07-23 22:43:04.276 | SUCCESS  | __main__:init_mongo:141 - MongoDB connection initialized successfully
+2025-07-23 22:43:04.277 | SUCCESS  | __main__:lifespan:898 - Application startup completed
+2025-07-23 22:43:32.709 | INFO     | __main__:create_user_bot:541 - Created bot bot_stroll_d357ccd2 for user stroll
+2025-07-23 22:43:32.843 | INFO     | __main__:end_user_sessions:851 - Ended 0 sessions for user stroll
+2025-07-23 22:43:32.989 | INFO     | __main__:create_session:800 - Created session session_stroll_633f5e6e for user stroll
+2025-07-23 22:43:32.990 | INFO     | __main__:login_or_register_user:185 - New user registered: stroll with bot: bot_stroll_d357ccd2
+2025-07-23 22:43:33.093 | INFO     | __main__:check_bot_needs_introduction:756 - User stroll bot customization check: needs_intro=True, prompt_customized=False
+2025-07-23 22:43:33.094 | INFO     | __main__:handle_login:1030 - Login successful for stroll, needs_intro=True
+2025-07-23 22:43:33.094 | INFO     | __main__:handle_login:1033 - Redirecting stroll to introduction tab
+2025-07-23 22:43:33.094 | INFO     | __main__:get_user_stats:198 - Getting user stats for: stroll
+2025-07-23 22:44:36.155 | INFO     | __main__:handle_introduction:1106 - Processing introduction for user stroll
+2025-07-23 22:44:36.251 | INFO     | __main__:customize_bot_from_introduction:706 - Generating personalized system prompt...
+2025-07-23 22:44:39.489 | INFO     | __main__:customize_bot_from_introduction:724 - Final system prompt: You are a personal AI companion for Lance Stroll, an F1 racer. You know Lance hates Max Verstappen. Your role is to provide him with warm, caring, and engaging companionship.
+Focus on fostering meanin...
+2025-07-23 22:44:39.617 | INFO     | __main__:customize_bot_from_introduction:732 - Customized bot prompt for user stroll
+2025-07-23 22:44:39.618 | INFO     | __main__:handle_introduction:1112 - Introduction completed successfully for stroll
+2025-07-23 22:44:57.575 | INFO     | __main__:chat:912 - Processing chat message for user: stroll
+2025-07-23 22:44:57.576 | INFO     | __main__:extract_user_facts:323 - Extracting facts from user message...
+2025-07-23 22:44:58.216 | INFO     | __main__:extract_user_facts:351 - Extracted 0 valid facts from message
+2025-07-23 22:44:58.571 | INFO     | __main__:chat:932 - Using custom bot: Stroll's Assistant
+2025-07-23 22:44:58.780 | INFO     | __main__:chat:975 - Generating response with Gemini API...
+2025-07-23 22:45:00.181 | INFO     | __main__:chat:982 - Storing message in database...
+2025-07-23 22:45:00.385 | SUCCESS  | __main__:chat:1004 - Message stored successfully
+2025-07-23 22:45:35.231 | INFO     | __main__:chat:912 - Processing chat message for user: stroll
+2025-07-23 22:45:35.231 | INFO     | __main__:extract_user_facts:323 - Extracting facts from user message...
+2025-07-23 22:45:36.097 | INFO     | __main__:extract_user_facts:351 - Extracted 1 valid facts from message
+2025-07-23 22:45:36.191 | INFO     | __main__:store_user_facts:441 - Stored 1 facts for user: stroll
+2025-07-23 22:45:36.387 | INFO     | __main__:chat:932 - Using custom bot: Stroll's Assistant
+2025-07-23 22:45:36.477 | INFO     | __main__:chat:975 - Generating response with Gemini API...
+2025-07-23 22:45:38.655 | INFO     | __main__:chat:982 - Storing message in database...
+2025-07-23 22:45:38.824 | SUCCESS  | __main__:chat:1004 - Message stored successfully
+2025-07-23 22:49:18.990 | INFO     | __main__:end_user_sessions:851 - Ended 1 sessions for user stroll
+2025-07-23 22:49:19.234 | INFO     | __main__:create_session:800 - Created session session_stroll_02524af1 for user stroll
+2025-07-23 22:49:19.234 | INFO     | __main__:login_or_register_user:169 - User logged in: stroll
+2025-07-23 22:49:19.325 | INFO     | __main__:check_bot_needs_introduction:756 - User stroll bot customization check: needs_intro=False, prompt_customized=True
+2025-07-23 22:49:19.326 | INFO     | __main__:handle_login:1030 - Login successful for stroll, needs_intro=False
+2025-07-23 22:49:19.326 | INFO     | __main__:handle_login:1048 - Redirecting stroll to chat tab
+2025-07-23 22:49:19.327 | INFO     | __main__:get_user_stats:198 - Getting user stats for: stroll
+2025-07-23 22:55:15.752 | INFO     | __main__:<module>:26 - Gemini API configured
+2025-07-23 22:55:15.752 | INFO     | __main__:<module>:34 - MongoDB URI: mongodb+srv://sohamrx:BlazingDragon18@chatbotdemo-cluster.gczetdg.mongodb.net/?retryWrites=true&w=majority&appName=chatbotdemo-cluster
+2025-07-23 22:55:15.752 | INFO     | __main__:<module>:35 - Database Name: chatbot_db
+2025-07-23 22:55:16.147 | INFO     | __main__:<module>:1263 - Gradio interface mounted on FastAPI at /chat
+2025-07-23 22:55:16.189 | INFO     | __main__:<module>:1272 - Starting uvicorn server on 0.0.0.0:8000
+2025-07-23 22:55:16.219 | INFO     | __main__:lifespan:896 - Starting FastAPI application...
+2025-07-23 22:55:16.219 | INFO     | __main__:init_mongo:132 - Initializing MongoDB connection...
+2025-07-23 22:55:25.883 | SUCCESS  | __main__:init_mongo:141 - MongoDB connection initialized successfully
+2025-07-23 22:55:25.885 | SUCCESS  | __main__:lifespan:898 - Application startup completed
+2025-07-23 22:56:22.161 | INFO     | __main__:create_user_bot:541 - Created bot bot_verstappen_c909c30a for user verstappen
+2025-07-23 22:56:22.295 | INFO     | __main__:end_user_sessions:851 - Ended 0 sessions for user verstappen
+2025-07-23 22:56:22.728 | INFO     | __main__:create_session:800 - Created session session_verstappen_cb4e1d95 for user verstappen
+2025-07-23 22:56:22.729 | INFO     | __main__:login_or_register_user:185 - New user registered: verstappen with bot: bot_verstappen_c909c30a
+2025-07-23 22:56:22.838 | INFO     | __main__:check_bot_needs_introduction:756 - User verstappen bot customization check: needs_intro=True, prompt_customized=False
+2025-07-23 22:56:22.839 | INFO     | __main__:handle_login:1030 - Login successful for verstappen, needs_intro=True
+2025-07-23 22:56:22.839 | INFO     | __main__:handle_login:1033 - Redirecting verstappen to introduction tab
+2025-07-23 22:56:22.839 | INFO     | __main__:get_user_stats:198 - Getting user stats for: verstappen
+2025-07-23 23:02:50.971 | INFO     | __main__:handle_introduction:1106 - Processing introduction for user verstappen
+2025-07-23 23:02:51.064 | INFO     | __main__:customize_bot_from_introduction:706 - Generating personalized system prompt...
+2025-07-23 23:02:54.297 | INFO     | __main__:customize_bot_from_introduction:724 - Final system prompt: You are Max's personal companion. Max is, in his own words, the greatest guy to ever exist in the entirety of fucking F1. Your role is to provide him with unwavering support and companionship, tailore...
+2025-07-23 23:02:54.352 | INFO     | __main__:customize_bot_from_introduction:732 - Customized bot prompt for user verstappen
+2025-07-23 23:02:54.352 | INFO     | __main__:handle_introduction:1112 - Introduction completed successfully for verstappen
+2025-07-23 23:03:29.778 | INFO     | __main__:chat:912 - Processing chat message for user: verstappen
+2025-07-23 23:03:29.779 | INFO     | __main__:extract_user_facts:323 - Extracting facts from user message...
+2025-07-23 23:03:30.562 | INFO     | __main__:extract_user_facts:351 - Extracted 0 valid facts from message
+2025-07-23 23:03:30.754 | INFO     | __main__:chat:932 - Using custom bot: Verstappen's Assistant
+2025-07-23 23:03:30.860 | INFO     | __main__:chat:975 - Generating response with Gemini API...
+2025-07-23 23:03:33.106 | INFO     | __main__:chat:982 - Storing message in database...
+2025-07-23 23:03:33.274 | SUCCESS  | __main__:chat:1004 - Message stored successfully
+2025-07-23 23:03:47.939 | INFO     | __main__:chat:912 - Processing chat message for user: verstappen
+2025-07-23 23:03:47.941 | INFO     | __main__:extract_user_facts:323 - Extracting facts from user message...
+2025-07-23 23:03:48.700 | INFO     | __main__:extract_user_facts:351 - Extracted 1 valid facts from message
+2025-07-23 23:03:48.789 | INFO     | __main__:store_user_facts:441 - Stored 1 facts for user: verstappen
+2025-07-23 23:03:48.998 | INFO     | __main__:chat:932 - Using custom bot: Verstappen's Assistant
+2025-07-23 23:03:49.083 | INFO     | __main__:chat:975 - Generating response with Gemini API...
+2025-07-23 23:03:52.123 | INFO     | __main__:chat:982 - Storing message in database...
+2025-07-23 23:03:52.305 | SUCCESS  | __main__:chat:1004 - Message stored successfully
